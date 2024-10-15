@@ -10,7 +10,7 @@ function Projects() {
     <>
      <section className="my-projects mb-5" id="projects">
         <div className="my-projects-row">
-            <h2>Work</h2>
+            <h2 className='h2Projects'>Projects</h2>
             <div className="portfolio-content">
                 <div className="images-grid d-grid gap-4 ">
                     <div className="grid-item">
@@ -50,7 +50,7 @@ function Projects() {
                     </a>
                     <div className="title">E-Commerce Back End</div>
                  </div>
-                  <div clasNames="grid-item">
+                  <div className="grid-item">
                      <a href="https://www.youtube.com/watch?v=XDtUJh-QHbg">
                         <img src={social} alt="Social Network API"></img>
                         <div className="image-hover-text">Watch the video, demonstrating the functionality of an e-commerce back end.</div>
