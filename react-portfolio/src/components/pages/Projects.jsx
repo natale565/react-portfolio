@@ -7,7 +7,7 @@ import social from "../../assets/images/Screenshot 2024-10-12 at 10.16.02 AM.p
 
 function Projects() {
   return (
-    <>
+    
      <section className="my-projects mb-5" id="projects">
         <div className="my-projects-row">
             <h2 className='h2Projects'>Projects</h2>
@@ -61,7 +61,6 @@ function Projects() {
             </div>
         </div>
     </section>
-    </>
   )
 }
 

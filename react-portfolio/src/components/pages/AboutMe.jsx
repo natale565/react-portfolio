@@ -2,7 +2,7 @@ import headshot from '../../assets/images/Headshot.png';
 
 function AboutMe() {
   return (
-    <>
+    <section id="footerPlaceholder">
     
        
            
@@ -37,7 +37,7 @@ now committed to growing in a tech-focused role.
             
         
     
-    </>
+    </section>
   )
 }
 

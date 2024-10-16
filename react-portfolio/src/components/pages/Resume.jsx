@@ -6,7 +6,6 @@ import { GrDocumentPerformance } from "react-icons/gr";
 
 function Resume(){
   return (
-    <>
     <section>
         <div className='flex-row'>
             <h2 className="section-title secondary-border">My Resume</h2>
@@ -27,9 +26,9 @@ function Resume(){
             </div>
           </div>
         </div>
-        </section>
+       
 
-        <section>
+        
             
             <div className='article column1'>
                 <p className='column-title'>Front-End Skills</p>
@@ -88,7 +87,6 @@ function Resume(){
 
                         </div>
         </section>
-    </>
 
   )
 }
