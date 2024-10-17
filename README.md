@@ -22,7 +22,7 @@ This project was deployed using Netlify. Click here to view the page.
 
 # example of functional pages  
 
-![gif](/react-portfolio/react-portfolio/src/assets/images/fullGif.gif)
+![gif](/react-portfolio/src/assets/images/fullGif.gif)
 
 
 
