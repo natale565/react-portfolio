@@ -10,6 +10,7 @@ function ContactMe() {
   const [userName, setUserName] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -34,13 +35,15 @@ function ContactMe() {
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !userName) {
       setErrorMessage("Email or Name is invalid");
+      setSuccessMessage("");
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the message is not valid. If so, we set an error message regarding the message.
     }
 
-    if (!setMessage(message)) {
+    if ((!message)) {
       setErrorMessage(`Message is required.`);
+      setSuccessMessage("");
       return;
     }
 
@@ -48,6 +51,7 @@ function ContactMe() {
     setUserName("");
     setMessage("");
     setEmail("");
+    setSuccessMessage("Information received, I will reach out shortly!");
   };
 
   return (
@@ -58,8 +62,7 @@ function ContactMe() {
 
       <div className="contact-info">
         <div>
-          <h3>Hello {userName}</h3>
-          <p>Want to get into contact?</p>
+          <h3>Want to get into contact?</h3>
           <address>
             Windsor, CT <br />
             P: <a href="tel:203-823-5200">tel:203-823-5200</a>
@@ -118,6 +121,11 @@ function ContactMe() {
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+         {successMessage && (
+          <div>
+            <p className="success-text">{successMessage}</p>
           </div>
         )}
       </div>

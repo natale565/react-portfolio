@@ -1,4 +1,4 @@
-import tripPlanner from "../../assets/images/Screenshot 2024-09-30 at 12.59.48 PM.png";
+import note from "../../assets/images/notetaker.png";
 import weather from "../../assets/images/weatherAPI.png";
 import movie from "../../assets/images/movie-database.png";
 import jate from "../../assets/images/Screenshot 2024-10-12 at 9.59.55 AM.png";
@@ -14,17 +14,17 @@ function Projects() {
             <div className="portfolio-content">
                 <div className="images-grid d-grid gap-4 ">
                     <div className="grid-item">
-                        <a href="https://trip-planner-b5zi.onrender.com/">
-                            <img src={tripPlanner} alt="Trip Planner App Image"></img>
+                        <a href="https://express-js-note-taker-c9n7.onrender.com">
+                            <img src={note} alt="Trip Planner App Image"></img>
                             <div className="image-hover-text">Deployed on Render. Applications deployed on Render can take longer to load.</div>
                         </a>
-                        <div className="title">Trip Planner App</div>
+                        <div className="title">Express.js Note Taker</div>
                     </div>
 
                     <div className="grid-item">
                         <a href="https://natale565.github.io/weather-api/">
                             <img src={weather} alt="Weather DashboardImage"></img>
-                            <div className="image-hover-text">Full functioning Weather Dashboard.</div>
+                            <div className="image-hover-text">Full functioning Weather API Dashboard.</div>
                         </a>
                         <div className="title">Weather Dashboard</div>
                      </div>
@@ -32,7 +32,7 @@ function Projects() {
                     
                      <div className="grid-item">
                         <a href="https://natale565.github.io/movie-night/">
-                            <img src={movie} alt="Movie Database Image"></img>
+                            <img src={movie} alt="Movie Database Image"></img> <div className="image-hover-text">Find a movie for your next movie night!</div>
                         </a>
                         <div className="title">Movie Database App</div>
                      </div>
@@ -46,14 +46,14 @@ function Projects() {
                      <div className="grid-item">
                      <a href="https://app.screencastify.com/v3/watch/mkK2sq7j2qjqo0oVLBsq">
                         <img src={ecom} alt="E-Commerce Backend Image"></img>
-                        <div className="image-hover-text">Watch the video, demonstrating the functionality of an e-commerce back end.</div>
+                        <div className="image-hover-text">Click to watch the video, demonstrating the functionality of an e-commerce back end.</div>
                     </a>
                     <div className="title">E-Commerce Back End</div>
                  </div>
                   <div className="grid-item">
                      <a href="https://www.youtube.com/watch?v=XDtUJh-QHbg">
                         <img src={social} alt="Social Network API"></img>
-                        <div className="image-hover-text">Watch the video, demonstrating the functionality of an e-commerce back end.</div>
+                        <div className="image-hover-text">Click to watch the video, demonstrating the functionality of an e-commerce back end.</div>
                     </a>
                     <div className="title">NoSQL Social Network API</div>
                  </div>

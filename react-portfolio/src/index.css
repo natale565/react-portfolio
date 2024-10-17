@@ -1,22 +1,28 @@
-/* html, body, #root {
+html, body, #root {
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-} */
+  overflow-x: hidden; 
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 html, body {
-    height: 100%; /* Make sure the body takes the full height of the viewport */
+    height: 100%; 
     margin: 0;
 }
 
 #root {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure root container is full viewport height */
+    min-height: 100vh;  
 }
 
 .main-content {
-    flex-grow: 1; /* This makes the content area take up available space */
+    flex-grow: 1; 
 }
 
 
@@ -30,20 +36,6 @@ header{
 }
 
 
-/* footer {
-  background: #003F91;
-  font-weight: bold;
-  width: 100%;
-  margin-top: auto;
-  height: 100px;
-  position: relative;
-  bottom: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
-
-} */
 
 footer {
     background-image: url(../src/assets/images/header.gif);
@@ -51,10 +43,12 @@ footer {
     width: 100%;
     height: 100px;
     display: flex;
+    position: relative;
     justify-content: space-around;
     align-items: center;
-    position: relative; /* No need for fixed or absolute */
-    bottom: 0; /* Ensures it stays at the bottom of the page */
+    margin-top: auto;
+    bottom: 0;
+    
 }
 
 footer h2 {
@@ -104,7 +98,6 @@ header nav ul li a:hover {
   color: #D5F2EA;
   border-radius: 15px;
   text-shadow: none;
-  /*    transition: .5s ease-in;*/
 }
 
 
@@ -205,82 +198,6 @@ header nav ul li a:hover {
 
 
 
- @media (max-width: 768px) {
-    header {
-        flex-direction: column; 
-        align-items: center; 
-        padding: 20px;
-    }
-
-    header h1 {
-        font-size: 24px; 
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    header nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
-    header nav ul li {
-        margin-left: 0;
-    }
-
-    header nav ul li a {
-        font-size: 16px; 
-    }
-    .about-row, .my-projects-row, .my-contact-row {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .about-row h2, .my-projects-row h2, .my-contact-row h2 {
-        width: auto;
-        margin-bottom: 10px;
-    }
-
-    .images-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .profile-picture img {
-        width: 100px;
-    }
-
-    .about-content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .about-content p {
-        max-width: 100%;
-        text-align: center;
-    }
-
-    .contact-content li {
-        flex: 1 1 100%;
-    }
-
-    .btn {
-        width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 24px;
-    }
-
-    header nav ul li a {
-        font-size: 16px;
-    }
-
-    .grid-item img {
-        width: 90%;
-    }
-} 
 
 
 
@@ -458,10 +375,6 @@ label {
   line-height: 1.5; /* This adjusts the spacing between lines */
 }
 
-/* .aboutPara{
-  background-color: #F2E3D5 ;
-} */
-
 .profile-picture img {
     width: 200px;
     height: auto; 
@@ -469,6 +382,15 @@ label {
     margin-top: 100px;
     float: left;
   
+}
+
+.about-me-para-font{
+font-style: italic;
+font-size: 20px;
+  text-align: center;
+   /* This centers the element horizontally */
+  width: 100%; /* Adjust this to control the width */
+  line-height: 1.5; /* This adjusts the spacing between lines */
 }
 
 .about-row {
@@ -491,9 +413,9 @@ label {
 }
 
 .about-row p {
-  font-size: 1rem;;
+  font-size: 1.1rem;;
   text-align: center; /* Centers the paragraph text */
-  margin: 20px 0; /* This centers the element horizontally */
+  margin: 30px auto;
   width: 100%; /* Adjust this to control the width */
   line-height: 1.5; /* This adjusts the spacing between lines */
 }
@@ -530,6 +452,15 @@ label {
 
 }
 
+.skillPar{
+  color: #003F91;
+  border-bottom: 3px solid #003F91;
+  text-align: center;
+  margin: 20px auto; /* This centers the element horizontally */
+  width: 50%; /* Adjust this to control the width */
+  line-height: 1.5; /* This adjusts the spacing between lines */
+}
+
 .logo {
   font-size: 50px;
   color: #F2E3D5;
@@ -540,6 +471,15 @@ label {
   color: #20b1c2;
   opacity: 0.5;
   transition: .5s ease;
+}
+
+.col-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  width: 100%;
 }
 
 .column1,
@@ -572,145 +512,81 @@ ul {
 }
 
 
-/* 
-@media screen and (max-width: 980px) {
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
 
-  }
+ @media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 20px;
+    }
 
-  header h1 {
-    width: 100%;
-    text-align: center;
-  }
+    header h1 {
+        font-size: 24px; 
+        text-align: center;
+        margin-bottom: 10px;
+    }
 
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-  }
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 
-  header nav ul li a {
-    font-size: 20px;
-  }
+    header nav ul li {
+        margin-left: 0;
+    }
 
-  footer h2,
-  footer div,
-  footer p {
-    text-align: center;
-    width: 100%;
-  }
+    header nav ul li a {
+        font-size: 16px; 
+    }
+    .about-row, .my-projects-row, .my-contact-row {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .hero-cta {
-    width: 100%;
-  }
+    .about-row h2, .my-projects-row h2, .my-contact-row h2 {
+        width: auto;
+        margin-bottom: 10px;
+    }
 
-  .hero-cta {
-    text-align: center;
-  }
+    .images-grid {
+        grid-template-columns: 1fr;
+    }
 
-  .section-title {
-    width: 80%;
-  }
+    .profile-picture img {
+        width: 100px;
+        flex-direction: column;
+    }
 
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .contact-info {
-    flex: 1 100%;
-  }
+    .about-content p {
+        max-width: 100%;
+        text-align: center;
+    }
 
-  #contact-list {
-    display: block;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    .contact-content li {
+        flex: 1 1 100%;
+    }
 
-  }
-
+    .btn {
+        width: 100%;
+    }
 }
 
-@media screen and (max-width: 768px) {
-  section {
-    padding: 30px 15px;
-  }
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
 
-  .job h3 {
-    flex: 1 100%;
-    text-align: center;
-  }
+    header nav ul li a {
+        font-size: 16px;
+    }
 
-  .job-info {
-    flex: 2 100%;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .job-img,
-  .intro-img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .job-img {
-    margin-right: 100px;
-  }
-
-  .job-text {
-    flex: 100%;
-  }
-
-  #contact-list {
-    display: block;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-  }
-}
-
-@media screen and (max-width: 575px) {
-
-
-  .section-title {
-    width: 95%;
-  }
-
-  .intro p,
-  .download-intro p {
-    width: 100%;
-    padding: 30px 15px;
-  }
-
-  .job-img {
-    margin-right: 100px;
-  }
-
-  .contact-info {
-    text-align: center;
-
-  }
-
-  .contact-info li {
-    font-size: 25px;
-    justify-content: space-between;
-
-
-  }
-
-  #contact-list {
-    font-size: 25px;
-    display: block;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-bottom: 25px;
-    margin-right: 120px;
-
-  }
-
-  .contact-info>* {
-    flex: 0 100%;
-  }
-
-
-} */
+    .grid-item img {
+        width: 90%;
+    }
+} 

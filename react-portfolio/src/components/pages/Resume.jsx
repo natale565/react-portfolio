@@ -1,8 +1,8 @@
 import myResume from '../../assets/resume/Christopher-Natale.pdf'
-import {BsCloudDownload} from 'react-icons/bs'
-import { MdFoundation } from "react-icons/md";
-import { GrTechnology } from "react-icons/gr";
-import { GrDocumentPerformance } from "react-icons/gr";
+import { GrDownload } from "react-icons/gr";
+import { HiMiniComputerDesktop } from "react-icons/hi2";
+import { FaDatabase } from "react-icons/fa6";
+import { CgPerformance } from "react-icons/cg";
 
 function Resume(){
   return (
@@ -14,28 +14,28 @@ function Resume(){
         <div className="flex-row">
           <div className="download-info">
             <div className="download-text">
-              <p>Download my resume to learn more about my experience and skills.</p>
+              <p>Click the icon below to download my resume and learn more about my experience and skills.</p>
               <a href={myResume} className="download-logo" download>
-                <BsCloudDownload />
+                <GrDownload />
               </a>
               
-              <p>
-                Please feel free to check out my list of Developer
-                Proficiencies!
-              </p>
+              <h3 className='skillPar'>
+                List Of Developer Skills
+              </h3>
             </div>
           </div>
         </div>
        
 
         
-            
+            <div className='col-Container'>
+
             <div className='article column1'>
                 <p className='column-title'>Front-End Skills</p>
                 <p>
                     <ul>
                         <li className="logo">
-                            <MdFoundation />
+                            <HiMiniComputerDesktop />
                             </li>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -54,7 +54,7 @@ function Resume(){
                     <p>
                         <ul>
                                <li className="logo">
-                                <GrTechnology /></li>
+                                <FaDatabase /></li>
                             <li>Node.js</li>
                             <li>Express.js</li>
                             <li>MySQL</li>
@@ -63,17 +63,17 @@ function Resume(){
                             <li>NoSQL</li>
                             <li>APIs</li>
                             <li>Object-Relational Mapping</li>
-                            <li>Model-View-Conroller</li>
+                            <li>Model-View-Controller</li>
                             <li>REST</li>
                         </ul>
                         </p>
                     </div>
 
                     <div className='article column3'>
-                        <p className='column-title'>Performence Skills</p>
+                        <p className='column-title'>Performance Skills</p>
                         <p>
                             <ul><li className="logo">
-                                <GrDocumentPerformance />
+                                <CgPerformance />
                                 </li>
                                 <li>Progressive Web Applications</li>
                                 <li>GraphQL</li>
@@ -85,6 +85,7 @@ function Resume(){
                             </ul>
                             </p>
 
+                        </div>
                         </div>
         </section>
 
