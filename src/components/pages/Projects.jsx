@@ -1,9 +1,9 @@
 import note from "../../assets/images/notetaker.png";
 import weather from "../../assets/images/weatherAPI.png";
 import movie from "../../assets/images/movie-database.png";
-import jate from "../../assets/images/Screenshot 2024-10-12 at 9.59.55 AM.png";
-import ecom from "../../assets/images/Screenshot 2024-10-12 at 9.52.19 AM.png";
-import social from "../../assets/images/Screenshot 2024-10-12 at 10.16.02 AM.png";
+import jate from "../../assets/images/Screenshot 2024-10-17 at 10.16.17 PM.png";
+import ecom from "../../assets/images/ecom.png";
+import social from "../../assets/images/noSQL.png";
 
 function Projects() {
   return (
