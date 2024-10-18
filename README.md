@@ -18,7 +18,7 @@ Every Web Developer needs a place to showcase their work. This is a full functio
 
 # Live Site
 
-This project was deployed using Netlify. Click here to view the page.
+This project was deployed using Netlify. [Click here to view the page.](https://thunderous-yeot-966a8a.netlify.app/)
 
 # example of functional pages  
 
