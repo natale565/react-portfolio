@@ -4,6 +4,8 @@ import movie from "../../assets/images/movie-database.png";
 import jate from "../../assets/images/Screenshot 2024-10-17 at 10.16.17 PM.png";
 import ecom from "../../assets/images/ecom.png";
 import social from "../../assets/images/noSQL.png";
+import RPG from "../../assets/images/rpg-game.png";
+
 
 function Projects() {
   return (
@@ -56,6 +58,13 @@ function Projects() {
                         <div className="image-hover-text">Click to watch the video, demonstrating the functionality of an e-commerce back end.</div>
                     </a>
                     <div className="title">NoSQL Social Network API</div>
+                 </div>
+                 <div className="grid-item">
+                     <a href="https://www.youtube.com/watch?v=XDtUJh-QHbg">
+                        <img src={RPG} alt="RPG game"></img>
+                        <div className="image-hover-text">Click Here To Play Game!</div>
+                    </a>
+                    <div className="title">Dragon Repeller - RPG Game</div>
                  </div>
                 </div>
             </div>

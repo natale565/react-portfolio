@@ -200,6 +200,15 @@ header nav ul li a:hover {
     
   }
 
+  .github-icon {
+    color: white; 
+    transition: color 0.3s ease;
+}
+
+.github-icon:hover {
+    color: #3A7CA5;
+}
+
 
 
 
