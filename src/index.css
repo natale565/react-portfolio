@@ -13,12 +13,14 @@ html, body, #root {
 html, body {
     height: 100%; 
     margin: 0;
+    background-color:#efefef;;
 }
 
 #root {
     display: flex;
     flex-direction: column;
     min-height: 100vh;  
+    background-color:#efefef;;
 }
 
 .main-content {
@@ -198,6 +200,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     
+    
   }
 
   .github-icon {
@@ -217,8 +220,8 @@ header nav ul li a:hover {
 
 /* REACH OUT STYLES START */
 #reach-out {
-  /* margin-top: 5px; */
-  background: white;
+  margin-top: 20px;
+ background-color:#efefef;;
 }
 
 #reach-out h2 {
@@ -233,15 +236,17 @@ header nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color:#efefef;;
 }
 
 .contact-form {
   padding-right: 10%;
+  
 }
 
 .contact-form button:hover {
-  color: #F2E3D5;
-  background: #39b26d;
+  color: #d5e7f2;
+  background: #3998b2;
 }
 
 .contact-form input,
@@ -269,8 +274,8 @@ header nav ul li a:hover {
 .contact-form button {
   width: 100%;
   border: none;
-  background: #F2E3D5;
-  color: #024e76;
+  background: #24cd65;
+  color: #010508;
   text-align: center;
   padding: 15px 0;
   font-size: 25px;
@@ -292,6 +297,7 @@ header nav ul li a:hover {
   vertical-align: top;
   text-align: left;
   margin: 30px 0 0 60px;
+  
 
 }
 
