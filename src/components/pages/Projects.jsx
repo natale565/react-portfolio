@@ -56,6 +56,7 @@ function Projects() {
               </a>
               <div className="title">Movie Database App</div>
             </div>
+
             <div className="grid-item">
               <a href="https://progressive-web-applications-text-editor-w2ba.onrender.com/">
                 <img src={jate} alt="Note Taking App Image"></img>
@@ -66,6 +67,7 @@ function Projects() {
               </a>
               <div className="title">J.A.T.E - Just Another Text Editor</div>
             </div>
+
             <div className="grid-item">
               <a href="https://app.screencastify.com/v3/watch/mkK2sq7j2qjqo0oVLBsq">
                 <img src={ecom} alt="E-Commerce Backend Image"></img>
@@ -76,6 +78,7 @@ function Projects() {
               </a>
               <div className="title">E-Commerce Back End</div>
             </div>
+
             <div className="grid-item">
               <a href="https://www.youtube.com/watch?v=XDtUJh-QHbg">
                 <img src={social} alt="Social Network API"></img>
@@ -86,6 +89,7 @@ function Projects() {
               </a>
               <div className="title">NoSQL Social Network API</div>
             </div>
+            
             <div className="grid-item">
               <a href="https://www.youtube.com/watch?v=XDtUJh-QHbg">
                 <img src={RPG} alt="RPG game"></img>
