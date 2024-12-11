@@ -73,7 +73,7 @@ function ContactMe() {
             </a>
           </address>
           <p>
-            <strong>I'd love to hear your feedback!</strong>
+            <strong>I&apos;d love to hear your feedback!</strong>
           </p>
         </div>
 
