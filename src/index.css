@@ -6,6 +6,7 @@ html, body, #root {
   flex-direction: column;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    ;
 }
 
 
@@ -38,6 +39,11 @@ header{
     color: #efefef; 
 }
 
+.nav-links {
+    margin-right: 50px;
+
+}
+
 
 
 footer {
@@ -48,11 +54,11 @@ footer {
     height: 100px;
     display: flex;
     text-shadow: 0 0 3px rgba(0, 0, 0, 1);
-    position: sticky;
+    
     justify-content: space-around;
     align-items: center;
     margin-top: 80px;
-    bottom: 0;
+  margin-top: auto;
     
     
 }

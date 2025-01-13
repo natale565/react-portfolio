@@ -3,7 +3,7 @@ function NavBar({ currentPage, handlePageChange }) {
     return(
     <>
     
-    <nav>
+    <nav className="nav-links">
         <ul>
             <li><a href="#about-me"
             onClick={() => handlePageChange('AboutMe')}
