@@ -116,13 +116,21 @@ header nav ul li a:hover {
 
 
 
-
+.title {
+  font-size: 1.5rem; /* Bigger project title for focus */
+  color: #003F91;
+  margin-top: 15px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
 
 
 
 .h2Projects {
   font-size: 48px; 
+  font-weight: 600;
   margin-bottom: 60px; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   margin-top: 40px;
   border-bottom: 3px solid #003F91;
   width: 50%;
@@ -201,6 +209,8 @@ header nav ul li a:hover {
 }
 
 
+
+
 .my-contact-row i {
     color: white;
 }
@@ -215,6 +225,8 @@ header nav ul li a:hover {
     list-style: none;
     
   }
+
+  
   
   .contact-content li {
     flex: 0 0 calc(50% - 10px); 
@@ -403,7 +415,7 @@ label {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin-top: 50px;
+  margin-top: 10px;
   font-size: 50px;
   text-shadow: 0 0 3px rgba(0, 0, 0, 1);
 }
@@ -419,6 +431,7 @@ label {
 }
 
 
+
 .about-me-section {
   display: flex;
   flex-direction: column;
@@ -428,7 +441,7 @@ label {
 }
 
 .profile-picture img {
-  width: 200px;
+  width: 250px;
   height: auto;
   border-radius: 50%;
   margin-bottom: 20px;
@@ -450,6 +463,7 @@ label {
 .about-content h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   color: #003F91;
   border-bottom: 3px solid #003F91;
   padding-bottom: 10px;

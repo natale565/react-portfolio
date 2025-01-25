@@ -62,15 +62,17 @@ function ContactMe() {
 
       <div className="contact-info">
         <div>
-          <h3>Want to get into contact?</h3>
+          <h3>Want to get in contact?</h3>
           <address>
             Windsor, CT <br />
-            P: <a href="tel:203-823-5200">tel:203-823-5200</a>
+            Phone: <a href="tel:203-823-5200">203-823-5200</a>
             <br />
-            E:{" "}
+            Email:{" "}
             <a href="mailto:christopherrnatale@gmail.com">
               christopherrnatale@gmail.com
             </a>
+            <br />
+            Linkedin: <a href="https://www.linkedin.com/in/christopher-natale/"> Click Here!</a>
           </address>
           <p>
             <strong>I&apos;d love to hear your feedback!</strong>
@@ -123,7 +125,7 @@ function ContactMe() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-         {successMessage && (
+        {successMessage && (
           <div>
             <p className="success-text">{successMessage}</p>
           </div>

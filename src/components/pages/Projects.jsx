@@ -20,7 +20,7 @@ function Projects() {
               <img src={curated} alt="Curated Crates Homepage"></img>
               <div className="image-hover-text">
                 <a href="https://github.com/natale565/Curated-Crates">
-                  <FaGithub size={70} className="projectIcons" />
+                  <FaGithub size={70} className="projectIcons" data-tooltip="GitHub Repository" />
                 </a>
                 <a href="https://curated-crates.onrender.com/">
                   <CgWebsite size={70} className="projectIcons" />
