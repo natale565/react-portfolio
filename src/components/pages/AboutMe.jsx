@@ -10,31 +10,31 @@ function AboutMe() {
         <h2 className="H2AboutMe">About Me</h2>
 
         <p>
-          My name is Christopher Natale, and I am a results-driven professional
-          with over 9 years of experience leading teams, exceeding sales goals,
-          and driving business growth. I am transitioning into Software
-          Development, where I can apply my strengths in problem-solving,
-          leadership, and collaboration. My background in sales has honed my
-          communication and project management skills, and I now combine these
-          with my technical expertise in full-stack and front-end development. I
-          have a passion for building responsive, user-friendly web applications
-          using technologies like HTML, CSS, JavaScript, React, SQL, and
-          Node.js. Driven by a love for learning and innovation, I am excited to
-          solve complex problems through creative, impactful digital solutions.
-          I thrive in collaborative environments and am committed to
-          continuously growing in the tech industry, aiming to leverage both my
-          business acumen and technical skills to make meaningful contributions.
+          My name is Christopher Natale, and I am a dynamic, results-oriented
+          professional with over nine years of experience leading teams,
+          surpassing sales targets, and driving business growth. I am now
+          transitioning into Software Development, where I leverage my strengths
+          in problem-solving, leadership, and collaboration to create impactful
+          digital solutions. My background in sales has sharpened my
+          communication, project management, and strategic thinking skills,
+          which I now pair with technical expertise in full-stack and front-end
+          development. Proficient in technologies such as HTML, CSS, JavaScript,
+          React, SQL, and Node.js, I am passionate about building responsive,
+          user-friendly web applications that address real-world challenges. As
+          a lifelong learner and innovator, I am eager to tackle complex
+          problems and contribute meaningful solutions to the tech industry.
         </p>
 
         <p>
-          Outside of my career, I am passionate about mental health and
-          wellness, advocating for balance and self-care. I maintain an active
-          lifestyle as a dedicated gym-goer and explore creativity through
-          playing guitar and DJing. Lifelong learning has been a driving force
-          in my career transition, and I am eager to apply my diverse
-          experiences and skills in this new chapter. I am excited to blend my
-          leadership and problem-solving abilities with my technical expertise
-          to create user-centered applications that deliver real-world value.
+          Beyond my professional pursuits, I am deeply committed to mental
+          health advocacy and promoting wellness through balance and self-care.
+          I maintain an active lifestyle as a dedicated gym enthusiast and find
+          creative fulfillment in playing guitar and DJing. My career transition
+          into software development has been fueled by a passion for continuous
+          learning and growth. I aim to combine my leadership, business acumen,
+          and technical skills to design user-focused applications that drive
+          value and innovation. I thrive in collaborative environments and am
+          excited to make a lasting impact in the tech world.
         </p>
       </section>
     </section>
