@@ -479,6 +479,18 @@ label {
 
 /*resume page*/
 
+.resume-p{
+  font-size: 20px;
+  color: #003F91;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 0 0 3px rgb(228, 228, 228);
+  margin: 20px auto; /* This centers the element horizontally */
+  width: 50%; /* Adjust this to control the width */
+  line-height: 1.5; /* This adjusts the spacing between lines */
+}
+
+
 .download-text {
   height: auto;
   /* margin-left: 20%; */
@@ -512,6 +524,7 @@ label {
 .skillPar{
   color: #003F91;
   border-bottom: 3px solid #003F91;
+  font-weight: 600;
   text-align: center;
   margin: 20px auto; /* This centers the element horizontally */
   width: 50%; /* Adjust this to control the width */

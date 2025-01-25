@@ -14,7 +14,7 @@ function Resume(){
         <div className="flex-row">
           <div className="download-info">
             <div className="download-text">
-              <p>Click the icon below to download my resume and learn more about my experience and skills.</p>
+              <p className='resume-p'>Click the icon below to download my resume and learn more about my experience and skills.</p>
               <a href={myResume} className="download-logo" download>
                 <GrDownload />
               </a>
