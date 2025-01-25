@@ -418,50 +418,50 @@ label {
   line-height: 1.5; /* This adjusts the spacing between lines */
 }
 
-.profile-picture img {
-    width: 200px;
-    height: auto; 
-    border-radius: 20%;
-    margin-top: 100px;
-    float: left;
-  
-}
 
-.about-me-para-font{
-font-style: italic;
-font-size: 20px;
-  text-align: center;
-   /* This centers the element horizontally */
-  width: 100%; /* Adjust this to control the width */
-  line-height: 1.5; /* This adjusts the spacing between lines */
-}
-
-.about-row {
+.about-me-section {
   display: flex;
-
-  flex-direction: column; /* Ensures the h2 is above the p */
-  align-items: center; /* Centers content horizontally if needed */
-  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #efefef;
 }
 
-.H2AboutMe {
-  font-size: 48px; /* Adjust the font size of the h2 */
-  margin-bottom: 10px; /* Adds spacing between the h2 and the paragraph */
-  margin-right: 200px;
-  border-bottom: 3px solid black;
-  width: 50%;
+.profile-picture img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-picture img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
   text-align: center;
-  color:#003F91
-  
+  max-width: 800px;
+  line-height: 1.8;
 }
 
-.about-row p {
-  font-size: 1.1rem;;
-  text-align: center; /* Centers the paragraph text */
-  margin: 30px auto;
-  width: 100%; /* Adjust this to control the width */
-  line-height: 1.5; /* This adjusts the spacing between lines */
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #003F91;
+  border-bottom: 3px solid #003F91;
+  padding-bottom: 10px;
+  display: inline-block;
 }
+
+.about-content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
 
 /*resume page*/
 
@@ -633,3 +633,19 @@ ul {
         width: 90%;
     }
 } 
+
+
+
+@media (max-width: 768px) {
+  .profile-picture img {
+    width: 150px;
+  }
+
+  .about-content h2 {
+    font-size: 2rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+}
