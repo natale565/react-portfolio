@@ -68,13 +68,16 @@ footer h2 {
   color: #efefef;
   font-size: 20px;
   margin: 0;
+  flex-grow: 1;
+  text-align: center;
+  padding-left: 180px;
 }
 
 footer p {
   font-size: 15px;
   margin: 0;
-  
-  text-align: center;
+  text-align: right;
+  margin-right: 60px;
 
 }
 
@@ -533,7 +536,7 @@ label {
 
 .logo {
   font-size: 50px;
-  color: #003F91;
+  color: #efefef;
   display: inline-block;
 }
 
